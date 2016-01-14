@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar','tess-two'])
+    compile 'me.villani.lorenzo.android:android-cropimage:1.1.0'
+}
